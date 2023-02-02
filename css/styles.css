@@ -1,0 +1,67 @@
+body {
+    color: #2E2F42;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+ .logo {
+    color:#4D5AE5;
+ }
+
+ .first-logo {
+    color:#2E2F42;
+ }
+
+ .site-nav .link {
+    color: #2E2F42;
+ }
+ 
+ .site-nav .link:hover,
+ .site-nav .link:focus{
+    color: #404BBF;
+ }
+
+ .site-nav .link:active {
+    color:#404BBF;
+ }
+ 
+ .site-adress .link {
+    color: #434455;
+ }
+
+ .site-adress .link:hover,
+ .site-adress .link:focus{
+    color: #404BBF;
+ }
+ .site-adress .link:active {
+    color: #404BBF;
+ }
+ /*Hero*/
+
+.hero-tittle{
+    color:#FFFFFF;
+}
+ 
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button:hover{
+    background-color: #404BBF;
+}
+
+/*Section*/
+
+ .section-tittle {
+    color: #2E2F42;
+ }
+
+/*We are doing*/
+
+/*Team*/
