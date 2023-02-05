@@ -61,15 +61,15 @@ ul {
     color: var(--nav-hover-color);
  }
  
- .site-adress .link {
+ .site-address .link {
     color: var(--main-text-color);
  }
 
- .site-adress .link:hover,
- .site-adress .link:focus{
+ .site-address .link:hover,
+ .site-address .link:focus{
     color: var(--nav-hover-color);
  }
- .site-adress .link:active {
+ .site-address .link:active {
     color: var(--nav-hover-color);
  }
 
@@ -97,14 +97,15 @@ ul {
 }
  
 .hero-button {
-    color: var(--background-color);
-    background-color: var(--logo-blue-color);
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-border-radius: 4px;
+   color: var(--background-color);
+   background-color: var(--logo-blue-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   border: 1px solider var(--logo-blue-color);
+   border-radius: 4px;
    cursor: pointer;
 }
 
@@ -114,13 +115,13 @@ border-radius: 4px;
 }
 
 /*Our advantages*/
-.hidden-tittle {
+.hiden-tittle {
    display: none;
 }
 
  .card-tittle {
-    color: var(--tittle-text-color);
-   font-family: 'Roboto';
+      color: var(--tittle-text-color);
+      font-family: 'Roboto';
       font-style: normal;
       font-weight: 500;
       font-size: 20px;
@@ -128,7 +129,7 @@ border-radius: 4px;
  }
 
  .section-text{ 
-   font-family: 'Roboto';
+      font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -137,13 +138,13 @@ border-radius: 4px;
 /*We are doing*/
 
 .section-tittle {
-   font-family: 'Roboto';
+      font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
       font-size: 36px;
       line-height: 40px;
       text-align: center;
-         letter-spacing: 0.02em;
+      letter-spacing: 0.02em;
          text-transform: capitalize;
 }
 /*Team*/
@@ -165,10 +166,31 @@ border-radius: 4px;
 }
 
 .footer-text {
-   color: var(--footer-text-color);
-   font-family: 'Roboto';
+      color: var(--footer-text-color);
+      font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
+}
+
+/*Portfolio*/
+
+.filter-button {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--logo-blue-color);
+      background-color: var(--light-color);
+      border: 1px solid var(--footer-text-color);
+      border-radius: 4px;
+      cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+   color: var(--background-color);
+   background-color: var(--logo-blue-color);
 }
