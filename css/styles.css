@@ -25,12 +25,13 @@ ul {
 
  .logo {
    font-family: "Raleway";
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 24px;
-      text-transform: uppercase;
-      color: var(--logo-blue-color);
-      text-decoration: none;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.33;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--logo-blue-color);
+   text-decoration: none;
  }
 
  .logo-web {
@@ -38,10 +39,12 @@ ul {
  }
 
  .site-nav .link {
-    color: var(--tittle-text-color);
-    letter-spacing: 0.02em;
-   line-height: 24px;
+   color: var(--tittle-text-color);
+   letter-spacing: 0.02em;
+   font-weight: 500;
+   line-height: 1.5;
    text-decoration: none;
+
  }
  
  .site-nav .link:hover,
@@ -57,7 +60,7 @@ ul {
    color: var(--main-text-color);
    text-decoration: none;
    font-style: normal;
-   line-height: 24px;
+   line-height: 1.5;
    letter-spacing: 0.02em;
  }
 
@@ -75,11 +78,12 @@ ul {
    background-color: var(--tittle-text-color);
  }
 .hero-tittle{
-    color:var(--background-color);
-      font-size: 56px;
-      line-height: 1.2;
-      text-align: center;
-         letter-spacing: 0.02em;
+   color:var(--background-color);
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
 }
  
 .hero-button {
@@ -104,24 +108,26 @@ ul {
 }
 
  .card-tittle {
-      color: var(--tittle-text-color);
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
+   color: var(--tittle-text-color);
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
  }
 
- .section-text{ 
-      line-height: 1.5;
-      letter-spacing: 0.02em;
+ .sub-tittle{ 
+   line-height: 1.5;
+   letter-spacing: 0.02em;
  }
 /*We are doing*/
 
 .section-tittle {
-      font-size: 36px;
-      line-height: 40px;
-      text-align: center;
-      letter-spacing: 0.02em;
-      text-transform: capitalize;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
 }
 /*Team*/
 
@@ -142,21 +148,21 @@ ul {
 }
 
 .footer-text {
-      color: var(--footer-text-color);
-      line-height: 1.5;
-      letter-spacing: 0.02em;
+   color: var(--footer-text-color);
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
 
 /*Portfolio*/
 
 .filter-button {
-      font-weight: 500;
-      line-height: 1.5;
-      color: var(--logo-blue-color);
-      background-color: var(--light-color);
-      border: 1px solid var(--footer-text-color);
-      border-radius: 4px;
-      cursor: pointer;
+   font-weight: 500;
+   line-height: 1.5;
+   color: var(--logo-blue-color);
+   background-color: var(--light-color);
+   border: 1px solid var(--footer-text-color);
+   border-radius: 4px;
+   cursor: pointer;
 }
 
 .filter-button:hover,
